@@ -1,0 +1,11 @@
+{
+    "name": "advertising-navigation",
+    "description": "advertising-navigation component",
+    "scripts": ["index.js"],
+    "main": "index.js",
+    "dependencies": {
+        "serandomps/serand": "master",
+        "serandomps/utils": "master",
+        "serandomps/navigation": "master"
+    }
+}
