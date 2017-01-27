@@ -8,7 +8,7 @@ var ready = false;
 
 var render = function (done) {
     $.ajax({
-        url: utils.resolve('accounts://apis/v/menus/1'),
+        url: utils.resolve('accounts://apis/v/menus/2'),
         dataType: 'json',
         success: function (links) {
             done(false, links);
