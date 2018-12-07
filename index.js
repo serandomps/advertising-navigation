@@ -19,7 +19,8 @@ var render = function (done) {
     });
 };
 
-module.exports = function (ctx, sandbox, options, done) {
+module.exports = function (ctx, container, options, done) {
+    var sandbox = container.sandbox;
     context = {
         sandbox: sandbox,
         done: done
